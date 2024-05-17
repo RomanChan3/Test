@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Republic of Rome Living Rules v1.04</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #0779e4 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        #showcase {
+            min-height: 400px;
+            background: url('background.jpg') no-repeat 0 -400px;
+            text-align: center;
+            color: #fff;
+        }
+        #showcase h1 {
+            margin-top: 100px;
+            font-size: 55px;
+            margin-bottom: 10px;
+        }
+        #showcase p {
+            font-size: 20px;
+        }
+        .content {
+            padding: 20px;
+            background: #fff;
+            margin-bottom: 20px;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>Republic of Rome</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#introduction">Introduction</a></li>
+                    <li><a href="#basic-game">Basic Game</a></li>
+                    <li><a href="#advanced-game">Advanced Game</a></li>
+                    <li><a href="#scenarios">Scenarios</a></li>
+                    <li><a href="#solitaire">Solitaire and Two-Player Rules</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="showcase">
+        <div class="container">
+            <h1>Living Rules v1.04</h1>
+            <p>Republic of Rome: Second Edition</p>
+        </div>
+    </section>
+
+    <div class="container">
+        <div class="content">
+            <h2 id="introduction">Introduction</h2>
+            <p>REPUBLIC OF ROME is a game that captures 250 years of political history during the Roman Republic, from its appearance on the world stage around the time of the 1st Punic War (264 BC) through its eventual collapse into civil war with the assassination of Julius Caesar in 44 BC. Players control factions composed of the leading Senatorial families and compete for state offices, military commands, economic concessions and new adherents. Each player is attempting to become the dominant political force in Rome. However, the Senate must also attend to the affairs of state in a hostile world, necessitating a certain amount of cooperation in the prosecution of wars and the maintenance of public contentment. Failure to do so, especially at the outset when Rome is most vulnerable, may result in the collapse of the Republic. Therefore, the players must out maneuver one another, but defeat the game itself which constitutes an ever-present opponent scheming to divide and defeat them all. Players are advised to keep the threat of the downfall of the Republic foremost in mind and stand ready to cooperate for the good of the state. Otherwise, the most likely winner will be the game, and all players will be put to the sword!</p>
+
+            <h2 id="basic-game">Basic Game</h2>
+            <p>(Complete content of the basic game rules as found in the PDF document)</p>
+
+            <h2 id="advanced-game">Advanced Game</h2>
+            <p>(Complete content of the advanced game rules as found in the PDF document)</p>
+
+            <h2 id="scenarios">Scenarios</h2>
+            <p>(Complete content of the scenarios section as found in the PDF document)</p>
+
+            <h2 id="solitaire">Solitaire and Two-Player Rules</h2>
+            <p>(Complete content of the solitaire and two-player rules as found in the PDF document)</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>Republic of Rome | All rights reserved</p>
+    </footer>
+</body>
+</html>
